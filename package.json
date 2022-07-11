@@ -17,15 +17,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+http://github.com/ParanoidBat/Capacitor-Android-TCP-Plugin.git"
+    "url": "git+http://github.com/ParanoidBat/Capacitor-TCP-Plugin.git"
   },
   "bugs": {
-    "url": "http://github.com/ParanoidBat/Capacitor-Android-TCP-Plugin/issues"
+    "url": "http://github.com/ParanoidBat/Capacitor-TCP-Plugin/issues"
   },
   "keywords": [
     "capacitor",
     "plugin",
-    "native"
+    "native",
+    "tcp"
   ],
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
@@ -38,7 +39,7 @@
     "prettier": "prettier \"**/*.{css,html,ts,js,java}\"",
     "swiftlint": "node-swiftlint",
     "docgen": "docgen --api TCPPlugin --output-readme README.md --output-json dist/docs.json",
-    "build": "npm run clean && npm run docgen && tsc && rollup -c rollup.config.js",
+    "build": "npm run clean && tsc && rollup -c rollup.config.js",
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
@@ -74,5 +75,6 @@
     "android": {
       "src": "android"
     }
-  }
+  },
+  "dependencies": {}
 }

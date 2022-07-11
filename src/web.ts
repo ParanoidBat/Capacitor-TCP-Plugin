@@ -7,4 +7,7 @@ export class TCPWeb extends WebPlugin implements TCPPlugin {
     console.log('ECHO', options);
     return options;
   }
+  async sendMessage(options: { value: string }): Promise<{ value: string }> {
+    return options;
+  }
 }
