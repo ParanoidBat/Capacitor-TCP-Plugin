@@ -1,1 +1,7 @@
-<resources></resources>
+<resources>
+    <string name="ssid">Network Name</string>
+    <string name="set">Set</string>
+    <string name="password">Password</string>
+    <string name="save">Save</string>
+    <string name="org_id">OrgID</string>
+</resources>
