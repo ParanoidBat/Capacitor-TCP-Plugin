@@ -1,6 +1,6 @@
 # tcp-comm
 
-TCP client implementation for android.
+TCP client plugin, works for android for now.
 
 ## Install
 
@@ -8,12 +8,3 @@ TCP client implementation for android.
 npm install tcp-comm
 npx cap sync
 ```
-
-## API
-
-<docgen-index></docgen-index>
-
-<docgen-api>
-<!-- run docgen to generate docs from the source -->
-<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
-</docgen-api>
